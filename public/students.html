@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8">
-    <title>Students</title>
+    <title>Perfil Estudantes</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
   </head>
-  <link href="css/main.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
-    <div id="perfil-programadoras"></div>
-  <body>
-    <script type="text/javascript"src="js/data.js"></script> -->
-      <!-- Aquí va tus archivos JS -->
-      <script type="text/javascript"src="js/app.js"></script>
-
+  <body class="text-uppercase">
+    <section class="menu">
+       <select class="drop" id="dropMenu" onchange="classSelection(this.id,'classes')"></select>
+       <select class="drop" id="classes"></select><li class="nav-item">
+    </section>
+    <section class="pb-3 text-secondary" id="students">
+      <h2 class="text-center pt-5 pb-5 text-uppercase">Estudantes</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 text-center mb-3" id='developers-profile'>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript"src="js/data.js"></script>
+    <script type="text/javascript"src="js/students.js"></script>
   </body>
 </html>

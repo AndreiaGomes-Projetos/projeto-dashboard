@@ -31,13 +31,13 @@ body {
 .logo {
     cursor: pointer;
     font-size: 100%;
-    margin-bottom: 0%;  
+    margin-bottom: 0%;
 }
 
 .graphic{
     cursor: pointer;
     font-size: 100%;
-    margin-bottom: 0%;  
+    margin-bottom: 0%;
 
 }
 
@@ -147,3 +147,8 @@ body {
 .text-uppercase {
     text-transform: uppercase;
   }
+
+img-photo{
+  margin: 5px;
+  padding: 5px;
+}
